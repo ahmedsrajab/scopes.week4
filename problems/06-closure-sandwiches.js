@@ -15,7 +15,6 @@ let sandwichMaker = () => {
   return innerFunc = (ingredient) => {
      sandwich = sandwich + ' and ' + ingredient
       return sandwich
-     //}
   }
 }
 

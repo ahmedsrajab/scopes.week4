@@ -15,6 +15,7 @@ hidden2(); // returns 1
 
 ***********************************************************************/
 let hiddenCounter = () => {
+<<<<<<< HEAD
   let counter = 0;
   return innerFunc = () => {
     counter = counter++
@@ -22,6 +23,20 @@ let hiddenCounter = () => {
 return counter;
 
 }
+=======
+  let counter = 0
+  return innerFunc = () => {
+     return counter = counter + 1
+  }
+}
+
+let hidden1 = hiddenCounter(); //returns a function
+hidden1(); // returns 1
+hidden1(); // returns 2
+
+let hidden2 = hiddenCounter(); // returns a function
+hidden2(); // returns 1
+>>>>>>> refs/remotes/origin/main
 
 
 let hidden1 = hiddenCounter(); //returns a function
