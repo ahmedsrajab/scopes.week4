@@ -12,7 +12,7 @@ arrowRestSum(0); // => 0
 ***********************************************************************/
 
 let arrowRestSum = (...nums) => {
- console.log(nums.reduce((acc, num)=> acc += num,0))
+ return nums.reduce((acc, num)=> acc += num,0)
 }
 
 arrowRestSum(3,5,6); // => 14

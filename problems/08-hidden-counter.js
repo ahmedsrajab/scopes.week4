@@ -14,9 +14,22 @@ hidden2(); // returns 1
 
 
 ***********************************************************************/
+let hiddenCounter = () => {
+  let counter = 0;
+  return innerFunc = () => {
+    counter = counter++
+  }
+return counter;
 
-// Your code here
+}
 
+
+let hidden1 = hiddenCounter(); //returns a function
+hidden1(); // returns 1
+hidden1(); // returns 2
+
+let hidden2 = hiddenCounter(); // returns a function
+hidden2(); // returns 1
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
