@@ -19,9 +19,8 @@ let interrupter = (interruptingWord) => {
 
   return innerFunc = (sentence) => {
 
-    let words = sentence.split(' ').join(' ' + interruptingWord + ' ')
+    return words = sentence.split(' ').join(' ' + interruptingWord + ' ')
 
-    return words;
   }
 
 }
